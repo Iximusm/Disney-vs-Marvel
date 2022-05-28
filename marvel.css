@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+html, body {
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+img {
+    width: 100%;
+}
+
+a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#Avengers {
+    width: 100%;
+   
+}
+
+div {
+    width: 600px;
+    height: 400px;
+    margin: 30px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ironMan {
+    background-image: url(./images/ironMan.jpg);
+}
+.spiderMan {
+    background-image: url(./images/chelovek-pauk.jpg);
+    background-position: center;
+}
+.captainAmerica {
+    background-image: url(./images/captainAmerica.jpg);
+}
+#Avengers {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/avengers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.moveBack {
+    color: cyan;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1em;
+    position: fixed;
+    top: 2em;
+    right: 1em;
+}
